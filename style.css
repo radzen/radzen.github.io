@@ -6,6 +6,8 @@ html, body {
 
 body {
 	display: flex;
+	background: #111;
+	color: #333;
 }
 
 .msg {
