@@ -1,0 +1,51 @@
+.ui.basic.segment {
+  border: 0;
+}
+
+.nav {
+  transition: all .4s ease;
+}
+
+.big {
+  padding: 1em 0;  
+}
+
+.small {
+  padding: 1em 0;  
+}
+
+.ui.label {
+  margin-bottom: 7px;
+}
+
+#anime {
+  
+}
+
+p {
+  font-size: 15px;
+}
+
+.ui.white {
+  color: #fff;
+}
+
+.ui.card {
+  margin: auto;
+}
+
+img.ui.image {
+  margin: auto;
+}
+
+#socialicon {
+  color: #eee;
+  -webkit-transition: color 0.6s ease, transform 0.2s ease;
+  transition: color 0.6s ease, transform 0.2s ease;
+  display:block;
+}
+
+#socialicon:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
