@@ -15,7 +15,7 @@ function getInput(key) {
     if (isOperator(input)) {
       getOperator(input);
     }
-    if (input == '±') changeSign();
+    if (input == 'Â±') changeSign();
     if (input == '.') decimalPoint();    
     if (input == '=') showResult();
   } else { //NUMBER
@@ -27,9 +27,9 @@ function getInput(key) {
 function showResult() {
   var screen = $(".equation").text() + $(".display").text();
   if (screen == '') return;
-  screen = screen.replace(/÷/g, ' / ');
-  screen = screen.replace(/×/g, ' * ');
-  screen = screen.replace(/-/g, ' - ');
+  screen = screen.replace(/Ã·/g, ' / ');
+  screen = screen.replace(/Ã—/g, ' * ');
+  screen = screen.replace(/âˆ’/g, ' - ');
   result = eval(screen);
   if (result.toString().length > 10) result = result.toPrecision(4);
   $(".equation").text('');
@@ -88,7 +88,7 @@ function clear() {
 }
 
 function isOperator(key) {
-  if (key == '÷' || key == '×' || key == '-' || key == '+') {
+  if (key == 'Ã·' || key == 'Ã—' || key == 'âˆ’' || key == '+') {
     return true;
   }
 }
