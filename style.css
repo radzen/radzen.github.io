@@ -6,6 +6,7 @@ html,body {
 
 body {
   display: flex;
+  color: #aaa;
   background: #111;
   margin: auto;
 }
