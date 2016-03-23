@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -21,17 +20,4 @@
   </div>
 </body>
 
-=======
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>RA: Webfolio</title>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <div class="msg">
-      Still working on it.
-    </div>
-  </body>
->>>>>>> 22330a94164090824deb7e820cdf9d4fe7ea0360
 </html>
