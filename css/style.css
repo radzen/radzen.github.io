@@ -85,15 +85,15 @@ p {
 }
 
 .socialicon {
-  color: #eee;
-  -webkit-transition: color 0.6s ease, transform 0.2s ease;
-  transition: color 0.6s ease, transform 0.2s ease;
-  display:block;
+  color: #eee !important;
+  -webkit-transition: color 0.6s ease, transform 0.2s ease !important;
+  transition: color 0.6s ease, transform 0.2s ease !important;
+  display:block !important;
 }
 
 #socialicon:hover {
-  color: #fff;
-  transform: scale(1.5);
+  color: #fff  !important;
+  transform: scale(1.5)  !important;
 }
 
 hr {
