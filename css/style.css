@@ -91,7 +91,7 @@ p {
   display:block !important;
 }
 
-#socialicon:hover {
+.socialicon:hover {
   color: #fff  !important;
   transform: scale(1.5)  !important;
 }
