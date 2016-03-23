@@ -1,0 +1,103 @@
+#sidebar {
+  z-index: 1002;
+}
+#top {
+  z-index: 1001;
+}
+.burger {
+  position: relative;
+  top: 3px;
+}
+.ui.basic.segment {
+  border: 0;
+}
+
+.nav {
+  transition: all .4s ease;
+}
+
+.logo {
+  letter-spacing: 2px;
+  border: 3px solid #fff;
+  padding: 5px;
+}
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.title {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300!important;
+  line-height: auto!important;  
+}
+.description>p {
+  font-size: 17px;
+}
+
+.big {
+  padding: 1em 0;  
+}
+
+.small {
+  padding: 1em 0;  
+}
+
+.ui.label {
+  margin-bottom: 7px;
+}
+
+.project.container {
+  max-width: 1000px!important;  
+}
+
+.thumb {
+  border-radius: .3rem!important;
+  border: 1px solid rgba(0,0,0,.1)!important;
+}
+
+.icon.marker { padding-left: 0; }
+
+p {
+  font-size: 15px;
+}
+
+.ui.white {
+  color: #fff;
+}
+
+.heading {
+  font-size: 3em;
+  padding: 0 0 .5em;
+  text-align: center;
+}
+
+.section {
+  padding-top: 10em!important;
+  padding-bottom: 10em!important;
+}
+
+.ui.card {
+  margin: auto;
+}
+
+.ui.rounded.image {
+  margin: auto;
+}
+
+#socialicon {
+  color: #eee;
+  -webkit-transition: color 0.6s ease, transform 0.2s ease;
+  transition: color 0.6s ease, transform 0.2s ease;
+  display:block;
+}
+
+#socialicon:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
+
+hr { 
+  border: 0; 
+  height: 3px; 
+  background: #333;
+}
