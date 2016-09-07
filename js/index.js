@@ -40,13 +40,13 @@ app.controller("test", function($scope, $timeout){
     thumbnail: "http://imgh.us/wikiview.png",
     url: "http://codepen.io/radzen/full/BjRMjK/",
   },
-  {
-    title: "Camper News",
-    description: ["A remake of FreeCodeCamp's Camper News.", "This app displays the news articles in a pinterest-like grid. Masonry was used to achieve this effect. "],
-    skills: [{name:"FCC API",color:"teal"},{name:"jQUery",color:"blue"},{name:"Masonry",color:"pink"},{name:"Animate.css",color:"orange"},],
-    thumbnail: "http://imgh.us/fccnews1_1.png",
-    url: "http://codepen.io/radzen/full/YwZdVd/",
-  },
+  // {
+  //   title: "Camper News",
+  //   description: ["A remake of FreeCodeCamp's Camper News.", "This app displays the news articles in a pinterest-like grid. Masonry was used to achieve this effect. "],
+  //   skills: [{name:"FCC API",color:"teal"},{name:"jQUery",color:"blue"},{name:"Masonry",color:"pink"},{name:"Animate.css",color:"orange"},],
+  //   thumbnail: "http://imgh.us/fccnews1_1.png",
+  //   url: "http://codepen.io/radzen/full/YwZdVd/",
+  // },
   {
     title: "Twitch Status",
     description: ["Twitch.tv is a live streaming video platform owned by Twitch Interactive.","This web app checks a list of pre-selected users' online status on Twitch.tv. Semantic UI was perfect for this project."],
