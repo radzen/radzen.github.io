@@ -53,6 +53,13 @@ app.controller("test", function($scope, $timeout){
     skills: [{name:"jQUery",color:"blue"},{name:"Semantic UI",color:"teal"}],
     thumbnail: "http://imgh.us/twitchstatus.png",
     url: "http://codepen.io/radzen/full/xZYWNJ/",
+  },
+  {
+    title: "Tic Tac Toe",
+    description: ["A game of tic tac toe using the minimax algorithm. Minimax is a recursive algorithm for choosing the next move usually in a two-player game. Good luck on beating this one."],
+    skills: [{name:"jQUery",color:"blue"}],
+    thumbnail: "http://imgh.us/tictactoe.png",
+    url: "http://codepen.io/radzen/full/QNpKPz/",
   }    
   ];
   
