@@ -1,0 +1,169 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  /* background: url("http://imgh.us/tictactoe-bg.jpeg") no-repeat center center fixed; */
+  background-size: cover;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  background-color: #1d1e22;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(0,0,0,0.85);
+  z-index: 1;
+  display: none;
+  min-height: 320px;
+  min-width: 320px;
+}
+
+.winner {
+  position: relative;
+  transform: translateY(-63%);
+  top: 50%;
+}
+
+.announce {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.info {
+  color: #eee;
+}
+
+.x-info {
+  font-size: 2em;
+  position: relative;
+  top: 6px;
+  color: #e74c3c;
+}
+
+.select {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  margin: 10px 20px;
+  background-position: center center;
+  background-size: 160% 160%;
+  display: inline-block;
+  font-size: 6em;
+}
+
+.select:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.x {
+  /* background-image: url("../img/cross.svg"); */
+  color: #f44336;
+}
+
+.o {
+  /* background-image: url("../img/circle.png"); */
+  color: #2196f3;
+}
+
+.new-game {
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: rgba(255,0,0,.4);
+  font-size: 1em;
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+}
+
+.new-game:hover {
+  background: rgba(255,0,0,.7);
+}
+
+.container {
+  min-height: 320px;
+  min-width: 320px;
+  margin: auto;
+}
+
+
+.statistics {
+  color: #fff;
+  padding: 10px 0 10px 0;
+  background: rgba(0,0,0,0);
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  min-height: 320px;
+  min-width: 320px;
+}
+
+.stat {
+  width: 100%;
+}
+
+.tictactoe-lines {
+  /* background-image: url("https://images.sampletemplates.com/wp-content/uploads/2016/03/29122827/Sample-Tic-Tac-Toe-Template.jpg"); */
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /*background: rgba(0,0,0,.5);*/
+  width: 33.3%;
+  height: 33.3%;
+  background-size: 100% 100%;
+  background-position: center center;
+  box-sizing: border-box;
+  border-color: white;
+  font-size: 6em;
+  line-height: 1em;
+}
+
+.b0 {
+  border-right: 2px solid white;
+}
+
+.b2 {
+  border-left: 2px solid white;
+}
+
+.b3 {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.b4 {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.b5 {
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.b6 {
+  border-right: 2px solid white;
+}
+
+.b8 {
+  border-left: 2px solid white;
+}
