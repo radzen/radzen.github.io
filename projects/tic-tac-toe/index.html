@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en" >
 
-<head>
-  <meta charset="UTF-8">
-  <title>Tic Tac Toe minimax</title>
-  <link href='https://fonts.googleapis.com/css?family=Space+Mono:400,300,600' rel='stylesheet' type='text/css'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe minimax</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <!-- player select screen -->
+    <div class="overlay">
+      <div class="winner">
+        <h1 class="announce"></h1>
+        <p class="info">Select a turn. <span class="x-info">x</span> always goes first.</p>
+        <div class="select x" data-value="1">x</div>
+        <div class="select o" data-value="-1">o</div>
+      </div>
+    </div>
+
+    <!-- score board -->
+    <div class="statistics">
+      <div class="stat player-score">Player: 0</div>
+      <div class="stat game-count">Game: 0</div>
+      <div class="stat cpu-score">CPU: 0</div>
+    </div>
 
 
-      <link rel="stylesheet" href="css/style.css">
+    <!-- game board -->
+    <div class="container">
+      <div class="tictactoe-lines">
+        <div class="box b0" data-value="0"></div>
+        <div class="box b1" data-value="1"></div>
+        <div class="box b2" data-value="2"></div>
+        <div class="box b3" data-value="3"></div>
+        <div class="box b4" data-value="4"></div>
+        <div class="box b5" data-value="5"></div>
+        <div class="box b6" data-value="6"></div>
+        <div class="box b7" data-value="7"></div>
+        <div class="box b8" data-value="8"></div>
+      </div>
+    </div>
 
-
-</head>
-
-<body>
-
-  <div class="overlay">
-  <div class="winner">
-    <h1 class="announce"></h1>
-    <p class="info">Select a turn. <span class="x-info">&Cross;</span> always goes first.</p>
-    <div class="select x" data-value="1">&Cross;</div>
-    <div class="select o" data-value="-1">&cir;</div>
-  </div>
-</div>
-
-<div class="statistics">
-  <div class="stat player-score">Player: 0</div>
-  <div class="stat game-count">Game: 0</div>
-  <div class="stat cpu-score">CPU: 0</div>
-</div>
-
-<div class="container">
-  <div class="tictactoe-lines">
-    <div class="box b0" data-value="0"></div>
-    <div class="box b1" data-value="1"></div>
-    <div class="box b2" data-value="2"></div>
-    <div class="box b3" data-value="3"></div>
-    <div class="box b4" data-value="4"></div>
-    <div class="box b5" data-value="5"></div>
-    <div class="box b6" data-value="6"></div>
-    <div class="box b7" data-value="7"></div>
-    <div class="box b8" data-value="8"></div>
-  </div>
-</div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-
-
+    <!-- scripts -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script  src="js/index.js"></script>
 
 
-
-
-</body>
+  </body>
 
 </html>

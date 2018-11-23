@@ -1,7 +1,7 @@
 var board = [0,0,0,0,0,0,0,0,0]; //Each number represents each box. 0 = empty.
 var player, cpu; //Global variables that will contain 1 or -1. Used for determining turn.
 var gameCount = 0, playerScore = 0, cpuScore = 0; //Score and game count variables
-var circle = "&cir;", cross = "&Cross;"; //Images for our shapes
+var circle = "o", cross = "x"; //Images for our shapes
 
 //INITIALIZE:
 redraw();

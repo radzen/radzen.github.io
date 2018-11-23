@@ -6,10 +6,9 @@ html, body {
 
 body {
   display: flex;
-  /* background: url("http://imgh.us/tictactoe-bg.jpeg") no-repeat center center fixed; */
   background-size: cover;
   text-align: center;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Fredoka One', monospace;
   background-color: #1d1e22;
 }
 
@@ -42,8 +41,6 @@ body {
 
 .x-info {
   font-size: 2em;
-  position: relative;
-  top: 6px;
   color: #e74c3c;
 }
 
@@ -63,12 +60,10 @@ body {
 }
 
 .x {
-  /* background-image: url("../img/cross.svg"); */
   color: #f44336;
 }
 
 .o {
-  /* background-image: url("../img/circle.png"); */
   color: #2196f3;
 }
 
@@ -104,8 +99,6 @@ body {
   display: flex;
   width: 100%;
   z-index: 1;
-  min-height: 320px;
-  min-width: 320px;
 }
 
 .stat {
@@ -113,7 +106,6 @@ body {
 }
 
 .tictactoe-lines {
-  /* background-image: url("https://images.sampletemplates.com/wp-content/uploads/2016/03/29122827/Sample-Tic-Tac-Toe-Template.jpg"); */
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -124,15 +116,15 @@ body {
 }
 
 .box {
-  /*background: rgba(0,0,0,.5);*/
   width: 33.3%;
   height: 33.3%;
   background-size: 100% 100%;
   background-position: center center;
   box-sizing: border-box;
   border-color: white;
-  font-size: 6em;
+  font-size: 5.5em;
   line-height: 1em;
+  cursor: pointer;
 }
 
 .b0 {
