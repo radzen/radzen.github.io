@@ -148,17 +148,17 @@
           </div>
         </div>
         <div class="column">
-        <p>Certified in computer technology, Randy has been tinkering with computers for as long as he can remember. He coded his first program in Pascal then he learned Visual Basic and a little bit of C while in college.</p>
-        <p>His insatiable curiosity towards technology and fondness for stunning graphics led him to start a long journey to the world of web development. Armed with his Google-fu and a fast internet connection, he learned HTML, CSS and Javascript.</p>
-        <p>Randy is now a self proclaimed Front-End Web Developer and a soon to be Full Stack Web Developer. He was last seen in front of a computer, creating an online portfolio.</p>
+        <p>Certified in computer technology, Randy has been tinkering with computers for as long as he can remember. He coded his first program in Pascal then learned Visual Basic and a little bit of C while in college. When not coding, he tries out different flavors of linux, Arch linux being his most favorite.</p>
+        <p>His insatiable curiosity towards technology and fondness for stunning graphics led him to start a long and harsh journey to the world of web development. Armed with his Google-fu and a fast internet connection, he learned the basics of HTML, CSS and Javascript and a couple of back-end programming languages.</p>
+        <p>Randy is now an experienced Full-Stack Web Developer looking for the next level. He was last seen in front of a computer, building the next big thing.</p>
         </div>
         <div class="column">
-        <h2>Abilities</h2>
-        <div ng-repeat="ability in abilities" class="ui label">{{ ability }}</div>
-        <h2>Likes</h2>
-        <div ng-repeat="like in likes" class="ui label">{{ like }}</div>
+        <h2>Qualities</h2>
+        <div ng-repeat="quality in qualities" class="ui label">{{ quality }}</div>
         <h2>Skills</h2>
         <div ng-repeat="skill in skills" class="ui label">{{ skill }}</div>
+        <h2>Likes</h2>
+        <div ng-repeat="like in likes" class="ui label">{{ like }}</div>
         </div>
       </div>
     </div>
@@ -167,8 +167,7 @@
 
   <!-- Footer -->
   <div class="ui attached padded teal center aligned inverted segment">
-    <span class="sub ui huge header">RANDY ASUNCION &copy; 2018</span>
-    <p>This site was built with Semantic UI and AngularJs</p>
+    <span class="sub ui huge header">RANDY ASUNCION &copy; {{ year }}. All rights reserved.</span>
   </div>
 
   </div>

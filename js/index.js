@@ -1,9 +1,10 @@
 var app = angular.module("app",[]);
 
 app.controller("test", function($scope, $timeout){
-  $scope.abilities = ["Fast Learner","Curious","Eye for Design"];
+  $scope.year = new Date().getFullYear(),
+  $scope.qualities = ["Problem Solver","Fast Learner","Team Player"];
+  $scope.skills = ["HTML","CSS/Bootstrap/TailwindCSS","JS/Vue/React","Node.js/Express","PHP/Laravel/CodeIgniter","Wordpress/Drupal","MySQL/NoSQL", "Rest API", "Photoshop/Illustrator"];
   $scope.likes = ["Flat UI","Responsive Design","Fluid Animations"];
-  $scope.skills = ["HTML5","CSS3","Javascript", "jQuery","Angular.js","CSS Frameworks","MongoDB","Python"];
   $scope.projects = [
   {
     title: "Random Quote",
@@ -26,13 +27,13 @@ app.controller("test", function($scope, $timeout){
     thumbnail: "img/pomodoro.png",
     url: "http://codepen.io/radzen/full/obxwYr/",
   },
-  {
-    title: "Local Weather",
-    description: ["A weather app that makes use of your browser's geolocation or GPS if viewed on a mobile device.","This project uses Weather Underground's API. The background gradient changes colors based on location's current time."],
-    skills: [{name:"WU API",color:"teal"},{name:"Bootstrap",color:"violet"},{name:"jQUery",color:"blue"}],
-    thumbnail: "img/localweather.png",
-    url: "http://codepen.io/radzen/full/PZpoqa/",
-  },
+  // {
+  //   title: "Local Weather",
+  //   description: ["A weather app that makes use of your browser's geolocation or GPS if viewed on a mobile device.","This project uses Weather Underground's API. The background gradient changes colors based on location's current time."],
+  //   skills: [{name:"WU API",color:"teal"},{name:"Bootstrap",color:"violet"},{name:"jQUery",color:"blue"}],
+  //   thumbnail: "img/localweather.png",
+  //   url: "http://codepen.io/radzen/full/PZpoqa/",
+  // },
   {
     title: "Wikipedia Viewer",
     description: ["Users can search for a topic or generate one at random with this wikipedia search app.","Related articles will be displayed with an image from the article (if any) and a brief description. This app uses MediaWiki's API and a jQuery autocomplete plugin for the search box."],
@@ -47,13 +48,13 @@ app.controller("test", function($scope, $timeout){
   //   thumbnail: "img/fccnews1_1.png",
   //   url: "http://codepen.io/radzen/full/YwZdVd/",
   // },
-  {
-    title: "Twitch Status",
-    description: ["Twitch.tv is a live streaming video platform owned by Twitch Interactive.","This web app checks a list of pre-selected users' online status on Twitch.tv. Semantic UI was perfect for this project."],
-    skills: [{name:"jQUery",color:"blue"},{name:"Semantic UI",color:"teal"}],
-    thumbnail: "img/twitchstatus.png",
-    url: "http://codepen.io/radzen/full/xZYWNJ/",
-  },
+  // {
+  //   title: "Twitch Status",
+  //   description: ["Twitch.tv is a live streaming video platform owned by Twitch Interactive.","This web app checks a list of pre-selected users' online status on Twitch.tv. Semantic UI was perfect for this project."],
+  //   skills: [{name:"jQUery",color:"blue"},{name:"Semantic UI",color:"teal"}],
+  //   thumbnail: "img/twitchstatus.png",
+  //   url: "http://codepen.io/radzen/full/xZYWNJ/",
+  // },
   {
     title: "Tic Tac Toe",
     description: ["A game of tic tac toe using the minimax algorithm. Minimax is a recursive algorithm for choosing the next move usually in a two-player game. Good luck on beating this one."],
